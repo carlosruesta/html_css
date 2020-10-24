@@ -1,0 +1,15 @@
+h1, p {
+	text-align: center;
+}
+
+body {
+	background: #CCCCCC;
+}
+
+#banner {
+	width: 100%;
+}
+
+.itens {
+	font-style: italic;
+}
