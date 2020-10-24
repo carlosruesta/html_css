@@ -1,48 +1,160 @@
-#banner {
-	width:100%;
-}
-
-.principal{
+header {
 	background: #CCCCCC;
-	padding: 30px;
+	padding: 20px 0;
 }
 
-.titulo-principal {
-	padding-left: 20px;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-.titulo-centralizado {
-	text-align: center
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
 }
 
-p {
-	text-align: center;
+nav li {
+	display: inline;
+	margin-left: 15px;
 }
 
-#missao {
-	font-size: 20px
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
-em strong {
-	color: #FF0000;
+nav a:hover {
+	color: goldenrod;
+	text-decoration: underline;
 }
 
-.itens {
-	font-style: italic
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
+.produtos li {
 
-ul {
+	/* os li ficaram um do lado o outro mas permitirão ajustar o tamanho*/
 	display: inline-block;
+
+	/* para alinhar o texto ao centro */
+	text-align: center;
+
+	/* para alinhar todos os li no top */
 	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+
+	/* cor somente para testar */
+	/*background: orange;*/
+
+	width: 30%;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+
+	/* usando box-sizing con isso ele vai
+	   respeitar o width de 30%:
+	   com isso padding e margin serão aplicados para dentro*/
+	box-sizing: border-box;
+
+	border: 2px solid black;
+	border-radius: 10px;
 }
 
-.imagembeneficios {
+.produtos li:hover {
+	border-color: goldenrod;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos li:active {
+	border-color: green;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("imagens/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.formulario-contato {
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+form label, form legend {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
 	width: 50%;
+}
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.05);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
