@@ -20,3 +20,16 @@
 - Novas pseudo-classes
 - Como aplicar um background gradiente na página
 - Pseudo-elementos
+
+#### Curso 4 - Aulas 4 e 5
+
+- Como manipular a opacidade dos elementos, com a propriedade CSS opacity
+- Como manipular a opacidade das cores
+- Como adicionar um sombreamento em volta dos elementos, com a propriedade CSS box-shadow
+- Como adicionar um sombreamento em textos, com a propriedade CSS text-shadow
+
+#### Curso 4 - Aula 6
+
+- Design responsivo: como ajustar o estilo da nossa página de acordo com o tamanho da tela do dispositivo que a acesse
+- Meta tag de Viewport
+- Media Queries
